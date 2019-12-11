@@ -1,0 +1,6 @@
+framework module Pods_Smack_10_ {
+  umbrella header "Pods-Smack(10)-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_Smack_10_UITests {
+  umbrella header "Pods-Smack(10)UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
