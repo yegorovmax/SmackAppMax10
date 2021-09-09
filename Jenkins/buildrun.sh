@@ -2,7 +2,7 @@
 set -eo pipefail
 cd ..
 
-DESTINATION='platform=iOS Simulator,name=iPhone 8,OS=latest'
+DESTINATION='platform=iOS Simulator,name=iPhone 8,OS=12.4'
 WORKSPACE="Smack(10).xcworkspace"
 SDK="iphonesimulator"
 SCHEME="Smack(10)";
