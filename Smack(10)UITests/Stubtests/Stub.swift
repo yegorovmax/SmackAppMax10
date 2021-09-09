@@ -6,7 +6,6 @@
 //  Copyright © 2019 Max Egorov. All rights reserved.
 //
 import XCTest
-
 class Stub: BaseStubTest {
     let email = "test@test.test"
     let password = "123"
