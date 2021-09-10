@@ -31,6 +31,7 @@ class Stub: BaseStubTest {
         sleep(1)
     }
     
+    
     func testAddNewUserStub() {
         let smackScreen = SmackScreen()
         var channelsScreen = smackScreen.tapSmackBurgerButton()
