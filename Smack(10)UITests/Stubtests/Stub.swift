@@ -6,7 +6,6 @@
 //  Copyright © 2019 Max Egorov. All rights reserved.
 //
 import XCTest
-
 class Stub: BaseStubTest {
     let email = "test@test.test"
     let password = "123"
@@ -30,6 +29,7 @@ class Stub: BaseStubTest {
         XCTAssert(isTextPresent(text: channelName), "Cant Find channelName")
         sleep(1)
     }
+    
     
     func testAddNewUserStub() {
         let smackScreen = SmackScreen()
